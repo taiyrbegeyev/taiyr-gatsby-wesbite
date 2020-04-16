@@ -12,6 +12,7 @@ module.exports = {
     siteLanguage: 'en',
     siteImage: 'taiyr_desktop.jpg',
     author: 'Taiyr Begeyev',
+    role: 'Software Engineer'
   },
   plugins: [
     `gatsby-plugin-theme-ui`,

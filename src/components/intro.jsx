@@ -1,46 +1,47 @@
-import React, {Component, useState, useEffect} from 'react'
-import desktopImage from '../../static/taiyr_desktop.jpg'
-import mobileImage from '../../static/taiyr_mobile.jpg'
+import React, {useState, useEffect} from 'react'
 import Typist from 'react-typist'
 /** @jsx jsx */
 import { jsx } from 'theme-ui'
+import useSiteMetadata from "../@lekoarts/gatsby-theme-minimal-blog/hooks/use-site-metadata"
+import desktopImage from '../../static/taiyr_desktop.jpg'
+import mobileImage from '../../static/taiyr_mobile.jpg'
 import scrollTo from 'gatsby-plugin-smoothscroll'
 import introStyles from "./intro.module.css"
 
 // Hook
 function useWindowSize() {
-  const isClient = typeof window === 'object';
+  const isClient = typeof window === 'object'
 
   function getSize() {
     return {
       width: isClient ? window.innerWidth : undefined,
       height: isClient ? window.innerHeight : undefined
-    };
+    }
   }
 
-  const [windowSize, setWindowSize] = useState(getSize);
+  const [windowSize, setWindowSize] = useState(getSize)
 
   useEffect(() => {
     if (!isClient) {
-      return false;
+      return false
     }
     
     function handleResize() {
-      setWindowSize(getSize());
+      setWindowSize(getSize())
     }
 
-    window.addEventListener('resize', handleResize);
-    return () => window.removeEventListener('resize', handleResize);
-  }, []); // Empty array ensures that effect is only run on mount and unmount
+    window.addEventListener('resize', handleResize)
+    return () => window.removeEventListener('resize', handleResize)
+  }, []) // Empty array ensures that effect is only run on mount and unmount
 
-  return windowSize;
+  return windowSize
 }
 
 function Intro() {
-  const size = useWindowSize();
-  console.log(size);
+  const size = useWindowSize()
+  const { siteTitle, role } = useSiteMetadata()
   const imageUrl = size.width >= 768 ? desktopImage : mobileImage
-  const titleMargin = size.width >= 768 ? 9 : 40;
+  const titleMargin = size.width >= 768 ? 9 : 40
 
   return (
     <div
@@ -63,7 +64,6 @@ function Intro() {
           color: 'white',
           textAlign: 'center',
           fontFamily: "system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Ubuntu, Helvetica Neue, sans-serif"
-
         }}
       >
         <div
@@ -79,7 +79,7 @@ function Intro() {
                 padding: '0'
               }}
             >
-              Taiyr Begeyev
+              {siteTitle}
             </h1>
           </Typist>
         </div>
@@ -95,15 +95,14 @@ function Intro() {
                 padding: '0'
               }}
             >
-              Software Engineer
+              {role}
             </p1>
           </Typist>
         </div>
       </div>
-      {/* <a className={introStyles.scroll} href="/" onClick={() => scrollTo('#some-id')}></a> */}
-      <button className={`${introStyles.scroll} ${introStyles.btn}`} onClick={() => scrollTo('#some-id')} />
+      <button className={`${introStyles.scroll} ${introStyles.btn}`} onClick={() => scrollTo('#home')} />
     </div>
-  );
+  )
 }
 
 export default Intro
