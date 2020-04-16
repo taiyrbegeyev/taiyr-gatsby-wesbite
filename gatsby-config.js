@@ -15,6 +15,7 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-theme-ui`,
+    `gatsby-plugin-smoothscroll`,
     {
       resolve: `@lekoarts/gatsby-theme-minimal-blog`,
       options: {
