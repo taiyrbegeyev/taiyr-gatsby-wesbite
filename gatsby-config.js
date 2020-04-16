@@ -4,9 +4,17 @@ require(`dotenv`).config({
 
 module.exports = {
   siteMetadata: {
-    siteTitleAlt: `Minimal Blog - Gatsby Theme`,
+    siteTitle: `Taiyr Begeyev`,
+    siteTitleAlt: `Taiyr Begeyev`,
+    siteHeadline: 'Taiyr Begeyev',
+    siteUrl: 'https://taiyr.me',
+    siteDescription: 'Hi there! My name is Taiyr. I am a second year Computer Science student at Jacobs University Bremen and this is my personal website',
+    siteLanguage: 'en',
+    siteImage: 'taiyr_desktop.jpg',
+    author: 'Taiyr Begeyev',
   },
   plugins: [
+    `gatsby-plugin-theme-ui`,
     {
       resolve: `@lekoarts/gatsby-theme-minimal-blog`,
       options: {
@@ -22,12 +30,20 @@ module.exports = {
         ],
         externalLinks: [
           {
+            name: `Github`,
+            url: `https://github.com/taiyrbegeyev`
+          },
+          {
+            name: `LinkedIn`,
+            url: `https://www.linkedin.com/in/taiyrbegeyev`
+          },
+          {
             name: `Twitter`,
-            url: `https://twitter.com/lekoarts_de`,
+            url: `https://twitter.com/tbegeyev`,
           },
           {
             name: `Instagram`,
-            url: `https://www.instagram.com/lekoarts.de/`,
+            url: `https://www.instagram.com/taiyrbegeyev`,
           },
         ],
       },
@@ -42,24 +58,19 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `minimal-blog - @lekoarts/gatsby-theme-minimal-blog`,
-        short_name: `minimal-blog`,
-        description: `Typography driven, feature-rich blogging theme with minimal aesthetics. Includes tags/categories support and extensive features for code blocks such as live preview, line numbers, and code highlighting.`,
+        name: `Taiyr Begeyev`,
+        short_name: `Taiyr Begeyev`,
+        description: `Hi there! My name is Taiyr. I am a second year Computer Science student at Jacobs University Bremen and this is my personal website.`,
         start_url: `/`,
-        background_color: `#fff`,
-        theme_color: `#6B46C1`,
+        background_color: `#ffffff`,
+        theme_color: `#ffffff`,
         display: `standalone`,
         icons: [
           {
-            src: `/android-chrome-192x192.png`,
-            sizes: `192x192`,
-            type: `image/png`,
-          },
-          {
-            src: `/android-chrome-512x512.png`,
-            sizes: `512x512`,
-            type: `image/png`,
-          },
+            "src": "/android-chrome-144x144.png",
+            "sizes": "144x144",
+            "type": "image/png"
+          }
         ],
       },
     },
