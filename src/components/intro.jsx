@@ -37,7 +37,7 @@ function useWindowSize() {
   return windowSize
 }
 
-function Intro() {
+const Intro = () => {
   const size = useWindowSize()
   const { siteTitle, role } = useSiteMetadata()
   const imageUrl = size.width >= 768 ? desktopImage : mobileImage
