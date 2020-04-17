@@ -10,7 +10,7 @@ module.exports = {
     siteUrl: 'https://taiyr.me',
     siteDescription: 'Hi there! My name is Taiyr. I am a second year Computer Science student at Jacobs University Bremen and this is my personal website',
     siteLanguage: 'en',
-    siteImage: 'taiyr_desktop.jpg',
+    siteImage: '/taiyr_desktop.jpg',
     author: 'Taiyr Begeyev',
     role: 'Software Engineer'
   },
