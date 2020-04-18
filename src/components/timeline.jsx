@@ -6,7 +6,7 @@ import timelineStyles from './timeline.module.css'
 
 const TimeLine = () => {
   return (
-    <div className={timelineStyles.timelineContainer}>
+    <div className={timelineStyles.timelineContainer} id="timeline">
       <Timeline lineColor={'#ddd'} className={timelineStyles.timeline}>
         <TimelineItem
           key="002"
