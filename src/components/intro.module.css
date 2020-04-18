@@ -45,7 +45,7 @@
 .scroll::before {
   position: absolute;
   top: calc(50% - 8px);
-  left: calc(50% - 6px);
+  left: calc(50% - 7px);
   transform: rotate(-45deg);
   width: 12px;
   height: 12px;
