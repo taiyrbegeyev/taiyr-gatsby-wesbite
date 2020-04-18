@@ -7,6 +7,7 @@ import Listing from "../@lekoarts/gatsby-theme-minimal-blog/components/listing"
 import useMinimalBlogConfig from "../@lekoarts/gatsby-theme-minimal-blog/hooks/use-minimal-blog-config"
 import replaceSlashes from "../@lekoarts/gatsby-theme-minimal-blog/utils/replaceSlashes"
 import SEO from "../@lekoarts/gatsby-theme-minimal-blog/components/seo"
+import TimeLine from "../components/timeline"
 
 type PostsProps = {
   posts: {
@@ -29,8 +30,9 @@ const About = ({ posts }: PostsProps) => {
   return (
     <Layout>
       <SEO title="About" />
-      <Flex sx={{ alignItems: `center`, justifyContent: `space-between`, flexFlow: `wrap` }}>
+      <Flex sx={{ flexFlow: `wrap`, flexDirection: 'column' }}>
         <Styled.h2>About</Styled.h2>
+        <TimeLine />
       </Flex>
     </Layout>
   )
