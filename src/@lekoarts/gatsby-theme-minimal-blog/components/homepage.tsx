@@ -18,6 +18,7 @@ import DownloadButton from '../../../components/downloadButton'
 import CodeStyles from "../styles/code"
 import SkipNavLink from "./skip-nav"
 import Intro from "../../../components/intro"
+import cvFile from "../../../../static/Taiyr_Begeyev_CV_EU.pdf"
 
 type PostsProps = {
   posts: {
@@ -69,7 +70,7 @@ const Homepage = ({ posts }: PostsProps) => {
           <section sx={{ mb: [5, 6, 7], p: { fontSize: [1, 2, 3], mt: 2 } }}>
             <Hero />
             <div className={buttonStyles.content}>
-              <DownloadButton content='Download CV' />
+              <DownloadButton href={cvFile} content='Download CV' />
               {/* <DownloadButton blog content='Check Out Blog' /> */}
             </div>
           </section>

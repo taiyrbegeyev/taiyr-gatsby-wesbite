@@ -1,14 +1,14 @@
 import React from 'react'
 import buttonStyles from "./downloadButton.module.css"
 
-const DownloadButton = ({ content, blog = false }) => {
+const DownloadButton = ({ content, href, blog = false }) => {
   if (blog) {
     return (
-      <a href="#!" className={buttonStyles.button2}>{content}</a>
+      <a href={href} target="_blank" className={buttonStyles.button2}>{content}</a>
     )
   } else {
     return (
-      <a href="#!" className={buttonStyles.button}>{content}</a>
+      <a href={href} target="_blank" className={buttonStyles.button}>{content}</a>
     )
   }
 }
