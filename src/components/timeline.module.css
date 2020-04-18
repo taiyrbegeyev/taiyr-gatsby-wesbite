@@ -1,0 +1,25 @@
+.timelineContainer {
+	margin-top: 4rem;
+}
+
+.timelineContainer > div {
+	padding: 0;
+	padding-top: 12px;
+}
+
+@media screen and (min-width: 640px) {
+	.timelineContainer {
+		margin-top: 8rem;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	/* .timelineContainer ul {
+		padding: 0;
+	} */
+}
+
+.timeline {
+  margin: 0;
+  padding: 0;
+}
