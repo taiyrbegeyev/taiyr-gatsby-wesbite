@@ -1,3 +1,5 @@
+const about_me = "Nice to meet you! My name is Taiyr. I am a second year Computer Science student at Jacobs University Bremen, Germany. I am passionate about building community, technology and making opportunities accessible for everyone!"
+
 const experience = {
   medikura_working_student: {
     title: "Full Stack Developer (Working Student), remote job",
@@ -172,5 +174,5 @@ const projects = {
 }
 
 export {
-  experience, education, skills, projects
+  about_me, experience, education, skills, projects
 }
