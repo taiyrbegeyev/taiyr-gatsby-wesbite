@@ -15,6 +15,7 @@ module.exports = {
     role: 'Software Engineer'
   },
   plugins: [
+    `gatsby-theme-material-ui`,
     `gatsby-plugin-theme-ui`,
     `gatsby-plugin-smoothscroll`,
     {
