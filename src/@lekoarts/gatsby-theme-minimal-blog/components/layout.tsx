@@ -34,6 +34,14 @@ const Layout = ({ children, className }: LayoutProps) => (
         li: {
           transition: `all 0.3s ease-in-out`,
           color: `text`,
+        },
+        p: {
+          transition: `all 0.3s ease-in-out`,
+          color: `text`,
+        },
+        h2: {
+          transition: `all 0.3s ease-in-out`,
+          color: `text`,
         }
       })}
     />
