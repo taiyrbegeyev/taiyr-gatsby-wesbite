@@ -1,0 +1,94 @@
+.aboutMeWrapper {
+  width: 100%;
+  margin-top: 4rem;
+}
+
+.aboutMePictureSection {
+  width: 100%;
+  height: 30vh;
+  position: relative;
+}
+
+.aboutMePictureWrapper {
+  position: absolute;
+  bottom: 0;
+  margin-left: 1rem;
+}
+
+.aboutMePicture {
+  border-radius: 50%;
+  border: 0.5rem solid white;
+  width: 30%;
+}
+
+.aboutMeImage {
+  background-image: url("../../static/taiyrKid.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70%;
+  width: 100%;
+  border-radius: 0.4rem;
+}
+
+.additionalSection {
+  height: 30%;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  margin-right: 1rem;
+}
+
+.aboutMeInfoSection {
+  width: 100%;
+  padding-bottom: 2rem;
+}
+
+.aboutMeInfo {
+  height: auto;
+}
+
+.aboutMeInfoName {
+  padding: 0 2rem;
+}
+
+.aboutMeInfoNameSub {
+  color: rgb(101, 119, 134);
+  font-size: 15px;
+  overflow-wrap: break-word;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.aboutMeInfoDescription {
+  margin-top: 1rem;
+  padding: 0 2rem;
+  overflow-wrap: break-word;
+}
+
+.button {
+	display: inline-block;
+  margin: 0;
+  padding: 0.5rem 0.75rem;
+	border: 0;
+	border-radius: 0.317rem;
+  background-color: #5f6c80;
+	color: #fff;
+	text-decoration: none;
+	font-weight: 500;
+	font-size: 0.9rem;
+  line-height: 1.5;
+	cursor: pointer;
+	-webkit-appearance: none;
+	-webkit-font-smoothing: antialiased;
+}
+
+@media screen and (min-width: 640px) {
+  .aboutMeWrapper {
+    width: 80%;
+  }
+  
+	.aboutMePicture {
+		width: 12.8rem;
+	}
+}

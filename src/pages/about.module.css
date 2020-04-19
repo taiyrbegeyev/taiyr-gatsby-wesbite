@@ -1,0 +1,14 @@
+.page {
+  width: 100%;
+  min-height: -webkit-fill-available;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+@media screen and (min-width: 640px) {
+	.page {
+    align-items: center;
+	}
+}
