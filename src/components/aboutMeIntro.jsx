@@ -1,8 +1,7 @@
 import React from 'react'
 import scrollTo from 'gatsby-plugin-smoothscroll'
-import downloadButtonStyles from './downloadButton.module.css'
 import aboutMeIntroStyles from './aboutMeIntro.module.css'
-import taiyrPic from '../../static/taiyr.png'
+import taiyrPic from '../../static/taiyrPortrait.jpeg'
 
 const AboutMeIntro = () => {
   return (
@@ -12,7 +11,7 @@ const AboutMeIntro = () => {
         <p className={aboutMeIntroStyles.text}>I am Taiyr.</p>
         <p className={aboutMeIntroStyles.text}>I create things.</p>
       </div>
-      <button className={`${aboutMeIntroStyles.scroll} ${aboutMeIntroStyles.btn}`} onClick={() => scrollTo('#timeline')} />
+      <button className={`${aboutMeIntroStyles.scroll} ${aboutMeIntroStyles.btn}`} onClick={() => scrollTo('#aboutMeCard')} />
     </div>
   )
 }
