@@ -1,13 +1,17 @@
 /** @jsx jsx */
 import { Global } from "@emotion/core"
 import { jsx, Main, Styled, Container, css } from "theme-ui"
+// @ts-ignore
 import buttonStyles from "../../../components/downloadButton.module.css"
 import "typeface-ibm-plex-sans"
 import { Link } from "gatsby"
 // @ts-ignore
 import Hero from "../texts/hero"
 // @ts-ignore
+import Bottom from "../texts/bottom"
+// @ts-ignore
 import Title from "./title"
+import List from './list'
 import Listing from "./listing"
 import useMinimalBlogConfig from "../hooks/use-minimal-blog-config"
 import replaceSlashes from "../utils/replaceSlashes"
@@ -18,6 +22,7 @@ import DownloadButton from '../../../components/downloadButton'
 import CodeStyles from "../styles/code"
 import SkipNavLink from "./skip-nav"
 import Intro from "../../../components/intro"
+// @ts-ignore
 import cvFile from "../../../../static/Taiyr_Begeyev_CV_EU.pdf"
 
 type PostsProps = {
@@ -78,9 +83,9 @@ const Homepage = ({ posts }: PostsProps) => {
             <Link to={replaceSlashes(`/${basePath}/${blogPath}`)}>Read all posts</Link>
           </Title>
           <Listing posts={posts} showTags={false} />
-          {/* <List>
-          <Bottom />
-          </List> */}
+          <List>
+            <Bottom />
+          </List>
         </Main>
         <Footer />
       </Container>
