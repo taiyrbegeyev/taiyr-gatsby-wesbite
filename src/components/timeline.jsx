@@ -1,5 +1,4 @@
 import React from 'react'
-import { Styled } from "theme-ui"
 import { Timeline, TimelineItem }  from 'vertical-timeline-component-for-react'
 import { experience } from '../config/text'
 import timelineStyles from './timeline.module.css'

@@ -1,6 +1,5 @@
 import React from 'react'
 import { Paper } from '@material-ui/core'
-import { jsx } from "theme-ui"
 import aboutMeCardStyles from './aboutMeCard.module.css'
 import profilePic from '../../static/taiyr.png'
 import cvFile from "../../static/Taiyr_Begeyev_CV_EU.pdf"
@@ -11,7 +10,7 @@ const AboutMeCard = () => {
     <Paper className={aboutMeCardStyles.aboutMeWrapper}>
       <div className={aboutMeCardStyles.aboutMePictureSection}>
         <div className={aboutMeCardStyles.aboutMePictureWrapper}>
-          <img alt="Taiyr Profile Picture" src={profilePic} className={aboutMeCardStyles.aboutMePicture} />
+          <img alt="Taiyr Profile Pic" src={profilePic} className={aboutMeCardStyles.aboutMePicture} />
         </div>
         <div className={aboutMeCardStyles.aboutMeImage} />
         <div className={aboutMeCardStyles.additionalSection}>
