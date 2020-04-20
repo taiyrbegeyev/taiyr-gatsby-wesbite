@@ -4,16 +4,14 @@ import { jsx } from "theme-ui"
 import aboutMeCardStyles from './aboutMeCard.module.css'
 import profilePic from '../../static/taiyr.png'
 import cvFile from "../../static/Taiyr_Begeyev_CV_EU.pdf"
-import { about_me } from "../config/text"
+import { about_me, skills } from "../config/text"
 
 const AboutMeCard = () => {
   return (
-    <Paper
-      className={aboutMeCardStyles.aboutMeWrapper}
-    >
+    <Paper className={aboutMeCardStyles.aboutMeWrapper}>
       <div className={aboutMeCardStyles.aboutMePictureSection}>
         <div className={aboutMeCardStyles.aboutMePictureWrapper}>
-          <img src={profilePic} className={aboutMeCardStyles.aboutMePicture} />
+          <img alt="Taiyr Profile Picture" src={profilePic} className={aboutMeCardStyles.aboutMePicture} />
         </div>
         <div className={aboutMeCardStyles.aboutMeImage} />
         <div className={aboutMeCardStyles.additionalSection}>
@@ -28,6 +26,15 @@ const AboutMeCard = () => {
           </div>
           <div className={aboutMeCardStyles.aboutMeInfoDescription}>
             <p>{about_me}</p>
+            <hr/>
+            {
+              skills.map(skills => 
+                <>
+                  <h3>{skills.title}</h3>
+                  <p>{skills.result}</p>
+                </>
+              )
+            }
           </div>
         </div>
       </div>

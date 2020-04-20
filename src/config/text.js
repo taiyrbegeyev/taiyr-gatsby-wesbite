@@ -1,4 +1,4 @@
-const about_me = "Nice to meet you! My name is Taiyr. I am a second year Computer Science student at Jacobs University Bremen, Germany. I am passionate about building community, technology and making opportunities accessible for everyone!"
+const about_me = "Nice to meet you! My name is Taiyr. I am a second year Computer Science student at Jacobs University Bremen, Germany. I am a Full Stack Developer based in Bremen, Germany, specialising in software and web development. I have been working in IT industry since 2019 and got my first programmer job at the age of 17."
 
 const experience = {
   medikura_working_student: {
@@ -96,83 +96,23 @@ const education = [
 
 const skills = [
   {
-    type: 'ReactJS/Redux',
-    level: '90'
+    title: "Programming Languages",
+    result: "JavaScript, TypeScript, C/C++, Dart, Python"
   },
   {
-    type: 'Javascript',
-    level: '80'
+    title: "Techologies",
+    result: "ReactJS/Redux, Gatsby.js, HTML5/CSS3, NodeJS(Express.js), Firebase, Flutter"
   },
   {
-    type: 'Typescript',
-    level: '70'
+    title: "Databases",
+    result: "SQL, MongoDB, Firebase Firestore"
   },
   {
-    type: 'NodeJS (Express.js)',
-    level: '70'
+    title: "Testing",
+    result: "react-testing-library, Mocha, Chai, Jest"
   },
-  {
-    type: 'HTML/CSS',
-    level: '90'
-  },
-  {
-    type: 'Flutter',
-    level: '20'
-  },
-  {
-    type: 'C/C++',
-    level: '70'
-  },
-  {
-    type: 'Python',
-    level: '60'
-  },
-  {
-    type: 'git',
-    level: '90'
-  },
-  {
-    type: 'Firebase',
-    level: '80'
-  },
-  {
-    type: 'SQL',
-    level: '65'
-  },
-  {
-    type: 'MongoDB',
-    level: '60'
-  }
 ]
 
-const projects = {
-  jstore: {
-    name: "JStore",
-    description: "The marketplace for Jacobs University Bremen, which is used by more than 600 students. Hundreds of items have been successfully sold. The app offers passwordless authentication to improve security. It takes less than 5 seconds to contact the owner. Our own templates simplify life. Post and edit your own posts, mark as sold or delete them. Search/sort items by keywords or categories. jstore.xyz",
-    link: "https://github.com/taiyrbegeyev/JStore"
-  },
-  trump_bot: {
-    name: "Trump Bot",
-    description: "Telegram Bot that can search for the dumbest things Donald Trump has ever said by keyword. If you want some diversity, random quote and meme options are available.",
-    link: "https://www.github.com/taiyrbegeyev/trump_genius_bot"
-  },
-  weather_app: {
-    name: "Weather Application",
-    description: "Weather App that fetches API from openweathermap. User is asked to input a city and a country he or she wants to get information about. The temperature, humidity and conditions are displayed to the user.",
-    link: "https://www.github.com/taiyrbegeyev/weather-app"
-  },
-  campus_life: {
-    name: "Campus Life",
-    description: "Work on the front-end and back-end of the unified Campus Website : Campus Life and Campus People.",
-    link: "https://www.github.com/techclubjacobs/"
-  },
-  browser_control: {
-    name: "Browser Control",
-    description: "Arduino project that deals with controlling a web browser using hand gestures. It uses ultrasonic sensors to detect the motion of the hand and utilise Arduino and Python to manage a web browser. It allows hand gestures to carry out certain functions on a web browser such as scrolling up and down or switching to different tabs open in a window.",
-    link: "https://www.github.com/taiyrbegeyev/Browser-Control"
-  }
-}
-
 export {
-  about_me, experience, education, skills, projects
+  about_me, experience, education, skills
 }

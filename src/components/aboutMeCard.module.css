@@ -14,12 +14,13 @@
   position: absolute;
   bottom: 0;
   margin-left: 1rem;
+  width: 30%;
 }
 
 .aboutMePicture {
   border-radius: 50%;
   border: 0.5rem solid transparent;
-  width: 30%;
+  width: 100%;
 }
 
 .aboutMeImage {
@@ -84,9 +85,24 @@
 	-webkit-font-smoothing: antialiased;
 }
 
+.button:hover {
+	opacity: 0.85;
+}
+
+.button:active {
+	box-shadow: inset 0 3px 4px hsla(0, 0%, 0%, 0.2);
+}
+
+.button:focus {
+	outline: thin dotted #444;
+	outline: 5px auto -webkit-focus-ring-color;
+	outline-offset: -2px;
+}
+
 @media screen and (min-width: 640px) {
   .aboutMeWrapper {
     width: 80%;
+    margin-top: 0;
   }
   
 	.aboutMePicture {
