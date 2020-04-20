@@ -42,7 +42,15 @@ const Layout = ({ children, className }: LayoutProps) => (
         h2: {
           transition: `all 0.3s ease-in-out`,
           color: `text`,
-        }
+        },
+        h3: {
+          transition: `all 0.3s ease-in-out`,
+          color: `text`,
+        },
+        h4: {
+          transition: `all 0.3s ease-in-out`,
+          color: `text`,
+        },
       })}
     />
     <SEO />

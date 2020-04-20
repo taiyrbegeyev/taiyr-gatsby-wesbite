@@ -30,7 +30,7 @@ const TimeLine = () => {
           style={{ color: '#e86971' }}
         >
           <h3 style={{ color: '#e86971' }}>{experience.teaching_assistant.title}</h3>
-          <h4><a>{experience.teaching_assistant.subtitle}</a></h4>
+          <h4>{experience.teaching_assistant.subtitle}</h4>
           <ul>
             {
               experience.teaching_assistant.description.map(key =>
