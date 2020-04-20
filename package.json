@@ -7,6 +7,7 @@
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
+    "deploy": "gatsby build && gh-pages -d public -b master",
     "develop": "gatsby develop",
     "develop:m": "gatsby develop -H 0.0.0.0 -p 8000",
     "develop:cypress": "cross-env CYPRESS_SUPPORT=y yarn develop",
@@ -35,6 +36,7 @@
   },
   "devDependencies": {
     "cross-env": "^5.2.0",
-    "gatsby-plugin-webpack-bundle-analyser-v2": "^1.1.8"
+    "gatsby-plugin-webpack-bundle-analyser-v2": "^1.1.8",
+    "gh-pages": "^2.2.0"
   }
 }
