@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://taiyr.me">
-    <img alt="Taiyr Portrait" src="https://taiyr.me/taiyrPortrait.jpeg" />
+    <img alt="Taiyr Portrait" src="https://taiyr.me/taiyrPortrait.jpeg" width="164" />
   </a>
 </p>
 <h1 align="center">
