@@ -19,6 +19,12 @@ module.exports = {
     `gatsby-plugin-theme-ui`,
     `gatsby-plugin-smoothscroll`,
     {
+      resolve: `gatsby-plugin-disqus`,
+      options: {
+        shortname: `taiyr-me`
+      }
+    },
+    {
       resolve: `@lekoarts/gatsby-theme-minimal-blog`,
       options: {
         navigation: [
