@@ -1,5 +1,8 @@
 import React from 'react'
+/** @jsx jsx */
+import { jsx } from "theme-ui"
 import { Paper } from '@material-ui/core'
+import Social from './social'
 import aboutMeCardStyles from './aboutMeCard.module.css'
 import profilePic from '../../static/taiyr.png'
 import cvFile from "../../static/Taiyr_Begeyev_CV_EU.pdf"
@@ -34,6 +37,15 @@ const AboutMeCard = () => {
                 </>
               )
             }
+            <div
+              sx={{
+                display: `flex`,
+                justifyContent: `center`,
+                mt: `2rem`,
+              }}
+            >
+              <Social />
+            </div>
           </div>
         </div>
       </div>
