@@ -1,5 +1,6 @@
 /** @jsx jsx */
 import { jsx, Styled } from "theme-ui"
+import Social from '../../../components/social'
 import useSiteMetadata from "../hooks/use-site-metadata"
 
 const links = [
@@ -48,20 +49,7 @@ const Footer = () => {
           mt: [20, 0, 0],
         }}
       >
-        {links.map(item => (
-          <div key={item.id}>
-            <a href={item.href} target="_blank">
-              <img
-                sx={{
-                  margin: '0 0.5rem',
-                  filter: `invert(0.6)`,
-                }}
-                width="16"
-                src={`https://simpleicons.org/icons/${item.id}.svg`}
-              />
-            </a>
-          </div>
-        ))}
+        <Social />
       </div>
     </footer>
   )
