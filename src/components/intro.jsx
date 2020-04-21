@@ -1,4 +1,4 @@
-import {useState, useEffect} from 'react'
+import React, {useState, useEffect} from 'react'
 import Typist from 'react-typist'
 /** @jsx jsx */
 import { jsx } from 'theme-ui'
@@ -105,4 +105,4 @@ const Intro = () => {
   )
 }
 
-export default Intro
+export default React.memo(Intro)
