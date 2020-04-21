@@ -6,7 +6,7 @@ const PostTemplate = (post) => {
   const site = useSiteMetadata()
 
   const disqusConfig = {
-    url: `${site.siteUrl + window.location.pathname}`,
+    url: `${site.siteUrl + site.slug}`,
     identifier: post.id,
     title: post.title,
   }
