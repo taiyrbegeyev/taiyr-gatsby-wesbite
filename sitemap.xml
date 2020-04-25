@@ -3,7 +3,12 @@
 <url> <loc>https://taiyr.me/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://taiyr.me/blog</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://taiyr.me/tags</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://taiyr.me/what-is-the-difference-between-code-linters-and-formatters</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://taiyr.me/the-art-of-computer-programming</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://taiyr.me/tags/general</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://taiyr.me/tags/java-script</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://taiyr.me/tags/formatting</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://taiyr.me/tags/linting</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://taiyr.me/tags/prettier-standard</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://taiyr.me/about/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>
