@@ -68,7 +68,6 @@ const Homepage = ({ posts }: PostsProps) => {
       />
       <SEO />
       <SkipNavLink>Skip to content</SkipNavLink>
-      <Intro />
       <Container id="home">
         <Header />
         <Main id="skip-nav" css={css({ ...CodeStyles })}>

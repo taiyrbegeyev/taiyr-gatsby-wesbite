@@ -20,13 +20,13 @@ banner: ./bugreport2019-hero.jpg
 
 #### Linters vs Formatters
 
-A great project is made out of consistent code. In the ideal world, you should not be able to tell who wrote the certain line of the code for the project. Modern linters and formatters help to close this gap by specifying a simple set of rules to be enforced on all developers working on the project. Such tools also stimulate developers to write a better code by pointing out common mistakes and introducing good programming practices.
+A great project is made out of consistent code. In the ideal world, you should not be able to tell who wrote a certain line of the code for the project. Modern linters and formatters help to close this gap by specifying a simple set of rules to be enforced on all developers working on the project. Such tools also stimulate developers to write better code by pointing out common mistakes and introducing good programming practices.
 
 <br/>
 
 #### Use linters for catching errors, formatters to fix style
 
-Linters and formatters are not interchangeable, as some of you might think. Obviously, linters can be used as formatters, but they are not the best fit for that. The reason for that is that linters have a problem with their initial design. Code linters can only deal with imperfections that have only one way of fixing them. For instance, it is considered to be a good practice to use the type-safe equality operators _===_ and _!==_ instead of their regular counterparts _==_ and _!=_.
+Linters and formatters are not interchangeable, as some of you might think. Linters can be used as formatters, but they are not the best fit for that. The reason for that is that linters have a problem with their initial design. Code linters can only deal with imperfections that have only one way of fixing them. For instance, it is considered to be a good practice to use the type-safe equality operators _===_ and _!==_ instead of their regular counterparts _==_ and _!=_.
 
 <br/>
 
@@ -76,21 +76,21 @@ foo(
 
 <br/>
 
-This leads us to the conclusion that while they all have a similar purpose, they each excel in their own field. Therefore, it is helpful to benefit from both tools. Clearly, there are many different linters and formatters available out there. We'll use two popular tools to lint and format our source code: **ESLint**(preconfigured with StandardJS rules) and **Prettier** or just a unified library called **prettier-standard**.
+This leads us to the conclusion that while they all have a similar purpose, they each excel in their field. Therefore, it is helpful to benefit from both tools. There are many different linters and formatters available out there. We'll use two popular tools to lint and format our source code: **ESLint**(preconfigured with StandardJS rules) and **Prettier** or just a unified library called **prettier-standard**.
 
-_I would highly recommend you to use **prettier-standard**. Just read through the ESLint and Prettier sections and jump straight into the installion process of **prettier-standard**_.
+_I would highly recommend you to use **prettier-standard**. Just read through the ESLint and Prettier sections and jump straight into the installation process of **prettier-standard**_.
 
 <br/>
 
 #### Linting with ESLint and StandardJS
 
-**ESLint** is by far the best JavaScript Linter. It statically analyzes your code to quickly find problems. The primary reason ESLint was created was to allow developers to create their own linting rules. Meaning that we, developers, have a freedom of setting our own rules for the project and customizing them.
+**ESLint** is by far the best JavaScript Linter. It statically analyzes your code to quickly find problems. The primary reason ESLint was created was to allow developers to create their own linting rules. Meaning that we, developers, have the freedom of setting our own rules for the project and customizing them.
 
 ##### How does one use ESLint?
 
 ESLint's configuration is provided within a _.eslintrc.*_ file (.eslintrc.json, .eslint.yaml) that can be used to define your own set of rules or to use plugins available for different frameworks (React, Vue, TypeScript).
 
-Configuration files may be shared between projects. Instead of maintaining your own set of rules, you can extend another setup file. There are many widely-used configuration packages that have been published in the npm registry. These are reffered to as `eslint-config-<name>` by convention. To extend a configuration package, your create an _extends_ array in your ESLint config file, and add the name of the config package (removing the eslint-config- prefix):
+Configuration files may be shared between projects. Instead of maintaining your own set of rules, you can extend another setup file. There are many widely-used configuration packages that have been published in the npm registry. These are referred to as `eslint-config-<name>` by convention. To extend a configuration package, your create an _extends_ array in your ESLint config file, and add the name of the config package (removing the eslint-config- prefix):
 
 ```json
 extends: [
@@ -101,11 +101,11 @@ rules: {
 }
 ```
 
-Standard is one those widely-used plugins. However, as you might have noticed, we are able to override defined rules in the shared config that we extended by creating _rules_ object. The problem with this approach is that your teammates, say, potentially could redefine rules they don't like. So that's where **StandardJS** comes in.
+Standard is one of those widely-used plugins. However, as you might have noticed, we are able to override defined rules in the shared config that we extended by creating _rules_ object. The problem with this approach is that your teammates, say, potentially could redefine rules they don't like. So that's where **StandardJS** comes in.
 
 ##### StandardJS
 
-**StandardJS** is more that just a shareable plugin. StandardJS ships CLI that you can run directly. It comes with the same pre-configured rules, but it bundles them up into a single Command Line Program. This module saves you (and others!) time in three ways:
+**StandardJS** is more than just a shareable plugin. StandardJS ships CLI that you can run directly. It comes with the same pre-configured rules, but it bundles them up into a single Command Line Program. This module saves you (and others!) time in three ways:
 * No configuration. The easiest way to enforce code quality in your project. No decisions to make. No _.eslintrc_ files to manage. It just works.
 * Automatically format code. Just run standard --fix and say goodbye to messy or inconsistent code.
 * Catch style issues & programmer errors early. Save precious code review time by eliminating back-and-forth between reviewer & contributor.
@@ -132,7 +132,7 @@ This will tell Prettier to prefer single quotes.
 
 #### Prettier-Standard
 
-You might be wondering how to clue ESLint(or StandardJS) and Prettier together. There are two main ways to achieve it: first by manually changing config files or using library called **prettier-standard**. Prettier-Standard is formats with prettier and lints with ESLint preconfigured with standard rules. Simply install the library into your project:
+You might be wondering how to clue ESLint(or StandardJS) and Prettier together. There are two main ways to achieve it: first by manually changing config files or using the library called **prettier-standard**. Prettier-Standard is formats with prettier and lints with ESLint preconfigured with standard rules. Simply install the library into your project:
 
 ```bash noLineNumbers
 yarn add --dev prettier-standard
@@ -173,7 +173,7 @@ Next time we're going to set up a git hook that will allow us to run before you 
 
 ###### Credits
 
-* [Illustration by by Mario Kovačević for Infinum](https://dribbble.com/shots/5984555-What-s-bugging-you)
+* [Illustration by Mario Kovačević for Infinum](https://dribbble.com/shots/5984555-What-s-bugging-you)
 * [StandardJS](https://standardjs.com/index.html)
 * [What's the difference between ESLint and Prettier?](https://restishistory.net/blog/whats-the-difference-between-eslint-and-prettier.html)
 * [Formatting and linting with ESLint and Prettier](https://www.sentinelstand.com/article/formatting-and-linting-with-eslint-and-prettier)
