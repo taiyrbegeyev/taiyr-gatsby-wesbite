@@ -65,6 +65,16 @@
   Link: </component---node-modules-lekoarts-gatsby-theme-minimal-blog-core-src-templates-tags-query-tsx-3522c66dd7e28040d23c.js>; rel=preload; as=script
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/tags/page-data.json>; rel=preload; as=fetch; crossorigin
+/using-eslint-and-prettier-in-typescript-project
+  Link: </webpack-runtime-4a507a7f7e542e6a57a2.js>; rel=preload; as=script
+  Link: </framework-b6dd62d0094bcee1981d.js>; rel=preload; as=script
+  Link: </f0e45107-555782b7c03c5457df73.js>; rel=preload; as=script
+  Link: </app-f90e5e02245fb9b98eca.js>; rel=preload; as=script
+  Link: </styles-b729c27faa6284e9ff45.js>; rel=preload; as=script
+  Link: </f99874f12556a1f3ef49502844d26e971946b948-82f6513f5b5ad40d3f0f.js>; rel=preload; as=script
+  Link: </component---node-modules-lekoarts-gatsby-theme-minimal-blog-core-src-templates-post-query-tsx-5f0601132ae6378383f2.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/using-eslint-and-prettier-in-typescript-project/page-data.json>; rel=preload; as=fetch; crossorigin
 /what-is-the-difference-between-code-linters-and-formatters
   Link: </webpack-runtime-4a507a7f7e542e6a57a2.js>; rel=preload; as=script
   Link: </framework-b6dd62d0094bcee1981d.js>; rel=preload; as=script
@@ -105,6 +115,16 @@
   Link: </component---node-modules-lekoarts-gatsby-theme-minimal-blog-core-src-templates-tag-query-tsx-4c1e08f954d0abdd9f68.js>; rel=preload; as=script
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/tags/java-script/page-data.json>; rel=preload; as=fetch; crossorigin
+/tags/type-script
+  Link: </webpack-runtime-4a507a7f7e542e6a57a2.js>; rel=preload; as=script
+  Link: </framework-b6dd62d0094bcee1981d.js>; rel=preload; as=script
+  Link: </f0e45107-555782b7c03c5457df73.js>; rel=preload; as=script
+  Link: </app-f90e5e02245fb9b98eca.js>; rel=preload; as=script
+  Link: </styles-b729c27faa6284e9ff45.js>; rel=preload; as=script
+  Link: </f99874f12556a1f3ef49502844d26e971946b948-82f6513f5b5ad40d3f0f.js>; rel=preload; as=script
+  Link: </component---node-modules-lekoarts-gatsby-theme-minimal-blog-core-src-templates-tag-query-tsx-4c1e08f954d0abdd9f68.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/tags/type-script/page-data.json>; rel=preload; as=fetch; crossorigin
 /tags/formatting
   Link: </webpack-runtime-4a507a7f7e542e6a57a2.js>; rel=preload; as=script
   Link: </framework-b6dd62d0094bcee1981d.js>; rel=preload; as=script
