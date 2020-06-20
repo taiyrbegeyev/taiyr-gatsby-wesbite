@@ -9,6 +9,22 @@ const TimeLine = () => {
       <Timeline lineColor={'#ddd'} className={timelineStyles.timeline}>
         <TimelineItem
           key="002"
+          dateText={experience.pryzl_cto.date}
+          dateInnerStyle={{ background: '#F55D3E' }}
+          style={{ color: '#F55D3E' }}
+        >
+          <h3 style={{ color: '#F55D3E' }}>{experience.pryzl_cto.title}</h3>
+          <h4><a target="_blank" href={experience.pryzl_cto.subtitle}>pryzl.com</a></h4>
+          <ul>
+            {
+              experience.pryzl_cto.description.map(key =>
+                <li>{key}</li>
+              )
+            }
+          </ul>
+        </TimelineItem>
+        <TimelineItem
+          key="002"
           dateText={experience.medikura_working_student.date}
           dateInnerStyle={{ background: '#61b8ff' }}
           style={{ color: '#61b8ff' }}

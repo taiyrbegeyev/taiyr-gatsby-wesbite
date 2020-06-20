@@ -1,13 +1,26 @@
 const about_me = "Nice to meet you! My name is Taiyr. I am a second year Computer Science student at Jacobs University Bremen, Germany. I am a Full Stack Developer based in Bremen, Germany, specialising in software and web development. I have been working in IT industry since 2019 and got my first programmer job at the age of 17."
 
 const experience = {
+  pryzl_cto: {
+    title: "CTO & Cofounder at Pryzl",
+    subtitle: "https://www.pryzl.com",
+    date: "05/2020 - Present",
+    description: [
+      "Gain a deep understand of the industry and business requirements and provide technical vision and direction for the entire company",
+      "Lead the strategy, planning, and execution of our technology roadmap",
+      "Supervise the system infrastructure to ensure stability, manageability, and efficiency",
+      "Build, lead, motivate, and mentor a small engineering & product team",
+      "Foster a culture of ownership and commitment to shared product development goals",
+      "Track, analyze and monitor key technology performance metrics"
+    ]
+  },
   medikura_working_student: {
     title: "Full Stack Developer (Working Student), remote job",
     subtitle: "https://www.medikura.com/en/",
     date: "12/2019 - 05/2020",
     description: [
-      "Develop automatic end-to-end test suites / ecosystems for all platform services to proof the readiness for release",
-      "Migrate Express.js codebases to Typescript"
+      "Developed automatic end-to-end test suites / ecosystems for all platform services to proof the readiness for release",
+      "Migrated Express.js codebases to Typescript"
     ]
   },
   teaching_assistant: {
