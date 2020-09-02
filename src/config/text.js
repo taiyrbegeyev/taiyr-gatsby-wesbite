@@ -1,18 +1,28 @@
-const about_me = "Nice to meet you! My name is Taiyr. I am a second year Computer Science student at Jacobs University Bremen, Germany. I am a Full Stack Developer based in Bremen, Germany, specialising in software and web development. I have been working in IT industry since 2019 and got my first programmer job at the age of 17."
+const about_me = "Nice to meet you! My name is Taiyr. I am a third year Computer Science student at Jacobs University Bremen, Germany. I am a Full Stack Developer based in Bremen, Germany, specialising in software and web development. I have been working in IT industry since 2019 and got my first programmer job at the age of 17."
 
 const experience = {
+  flowlity_intern: {
+    title: "Full Stack Developer Intern at Flowlity",
+    subtitle: "https://flowlity.com",
+    date: "09/2020 - Present",
+    description: [
+      "Flowlity is today the most advanced and intelligent supply chain planning solution on the market. Flowlity's SaaS platform provides real-time stock optimization and replenishment using machine learning and optimization.",
+      "Build clean, performant REST APIs using NodeJS and Flask to power data visualizations",
+      "Build UI/UX design of the frontend based on Vue.js Framework",
+    ],
+  },
   pryzl_cto: {
-    title: "CTO & Cofounder at Pryzl",
+    title: "CTO & Cofounder at Pryzl (Self-employed)",
     subtitle: "https://www.pryzl.com",
     date: "05/2020 - Present",
     description: [
-      "Gain a deep understand of the industry and business requirements and provide technical vision and direction for the entire company",
-      "Lead the strategy, planning, and execution of our technology roadmap",
-      "Supervise the system infrastructure to ensure stability, manageability, and efficiency",
-      "Build, lead, motivate, and mentor a small engineering & product team",
-      "Foster a culture of ownership and commitment to shared product development goals",
-      "Track, analyze and monitor key technology performance metrics"
-    ]
+      "Develop Flutter mobile applications for Android and iOS",
+      "Develop cloud functions and custom REST APIs on Firebase and GCP using Typescript",
+      "Build, lead, motivate, and mentor a small engineering and product team",
+      "Design and implement a database design and infrastructure",
+      "Define and implement development standards according to up-to-date coding methodologies and best practices",
+      "Build an agile development culture",
+    ],
   },
   medikura_working_student: {
     title: "Full Stack Developer (Working Student), remote job",
@@ -20,7 +30,7 @@ const experience = {
     date: "12/2019 - 05/2020",
     description: [
       "Developed automatic end-to-end test suites / ecosystems for all platform services to proof the readiness for release",
-      "Migrated Express.js codebases to Typescript"
+      "Migrated Express.js codebases to Typescript",
     ]
   },
   teaching_assistant: {
@@ -31,7 +41,7 @@ const experience = {
       "Coordinated instructional efforts with professor",
       "Tutored 180 students and assist with assignments, imperative and object-oriented programming concepts",
       "Monitored students during class work and exams",
-      "Provided assistance to professor in terms of preparing lesson outlines"
+      "Provided assistance to professor in terms of preparing lesson outlines",
     ]
   },
   medikura: {
@@ -44,10 +54,10 @@ const experience = {
       "Worked on Node.JS microservice to aggregate and filter information from an external API",
       "Turned Figma mockups into user interfaces using React.JS, Styled Components and Material-UI",
       "Standardized and improve code style and structure across several React.JS projects",
-      "Worked on Node.JS app with handlebars templates to generate and download PDFs from HTML and CSS",
+      "Worked on NodeJS app with handlebars templates to generate and download PDFs from HTML and CSS",
       "Learned and applied clean coding software engineering principles through code reviews and pair programming",
       "Reviewed code of other developers",
-      "Learned Agile principles by working in fast-paced scrum team"
+      "Learned Agile principles by working in fast-paced scrum team",
     ]
   },
   method: {
@@ -56,9 +66,9 @@ const experience = {
     date: "06/2018 – 07/2018",
     description: [
       "Studied HTML, CSS, JavaScript and Python over the course of 8 weeks",
-      "Worked on business cases from several Kazakhstani companies"
+      "Worked on business cases from several Kazakhstani companies",
     ]
-  }
+  },
 }
 
 const education = [
@@ -101,31 +111,31 @@ const education = [
         "Computer Graphics",
         "Elements of Probability",
         "German A2.1",
-        "German A2.2"
+        "German A2.2",
       ]
-    }
-  }
+    },
+  },
 ]
 
 const skills = [
   {
     title: "Programming Languages",
-    result: "JavaScript, TypeScript, C/C++, Dart, Python"
+    result: "JavaScript, TypeScript, C/C++, Dart, Python",
   },
   {
     title: "Techologies",
-    result: "ReactJS/Redux, Gatsby.js, HTML5/CSS3, NodeJS(Express.js), Firebase, Flutter"
+    result: "NodeJS(Express.js), ReactJS/Redux, Flutter, Firebase, Vue.js, Gatsby.js, HTML5/CSS3",
   },
   {
     title: "Databases",
-    result: "SQL, MongoDB, Firebase Firestore"
+    result: "SQL, MongoDB, Firebase Firestore",
   },
   {
     title: "Testing",
-    result: "react-testing-library, Mocha, Chai, Jest"
+    result: "react-testing-library, Mocha, Chai, Jest",
   },
 ]
 
 export {
-  about_me, experience, education, skills
+  about_me, experience, education, skills,
 }

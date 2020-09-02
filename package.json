@@ -3,7 +3,7 @@
   "name": "taiyr-gatsby-website",
   "description": "Taiyr Begeyev's personal website, built with GatsbyJS and TypeScript",
   "version": "4.0.0",
-  "author": "Taiyr Begeyev <hello@lekoarts.de>",
+  "author": "Taiyr Begeyev <taiyrbegeyev@gmail.com>",
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",

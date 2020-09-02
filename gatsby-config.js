@@ -8,7 +8,7 @@ module.exports = {
     siteTitleAlt: `Taiyr Begeyev`,
     siteHeadline: 'Taiyr Begeyev',
     siteUrl: 'https://taiyr.me',
-    siteDescription: 'Hi there! My name is Taiyr. I am a second year Computer Science student at Jacobs University Bremen and this is my personal website',
+    siteDescription: 'Hi there! My name is Taiyr. I am a third year Computer Science student at Jacobs University Bremen and this is my personal website',
     siteLanguage: 'en',
     siteImage: '/taiyr_desktop.jpg',
     author: 'Taiyr Begeyev',
@@ -73,7 +73,7 @@ module.exports = {
       options: {
         name: `Taiyr Begeyev`,
         short_name: `Taiyr Begeyev`,
-        description: `Hi there! My name is Taiyr. I am a second year Computer Science student at Jacobs University Bremen and this is my personal website.`,
+        description: `Hi there! My name is Taiyr. I am a third year Computer Science student at Jacobs University Bremen and this is my personal website.`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#ffffff`,
