@@ -23,7 +23,7 @@ import CodeStyles from "../styles/code"
 import SkipNavLink from "./skip-nav"
 import Intro from "../../../components/intro"
 // @ts-ignore
-import cvFile from "../../../../static/Taiyr_Begeyev_CV_EU.pdf"
+import cvFile from "../../../../static/Taiyr_Begeyev_CV.pdf"
 
 type PostsProps = {
   posts: {

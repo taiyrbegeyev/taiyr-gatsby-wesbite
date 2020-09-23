@@ -1,16 +1,6 @@
 const about_me = "Nice to meet you! My name is Taiyr. I am a third year Computer Science student at Jacobs University Bremen, Germany. I am a Full Stack Developer based in Bremen, Germany, specialising in software and web development. I have been working in IT industry since 2019 and got my first programmer job at the age of 17."
 
 const experience = {
-  flowlity_intern: {
-    title: "Full Stack Developer Intern at Flowlity",
-    subtitle: "https://flowlity.com",
-    date: "09/2020 - Present",
-    description: [
-      "Flowlity is today the most advanced and intelligent supply chain planning solution on the market. Flowlity's SaaS platform provides real-time stock optimization and replenishment using machine learning and optimization.",
-      "Build clean, performant REST APIs using NodeJS and Flask to power data visualizations",
-      "Build UI/UX design of the frontend based on Vue.js Framework",
-    ],
-  },
   pryzl_cto: {
     title: "CTO & Cofounder at Pryzl (Self-employed)",
     subtitle: "https://www.pryzl.com",
@@ -124,7 +114,7 @@ const skills = [
   },
   {
     title: "Techologies",
-    result: "NodeJS(Express.js), ReactJS/Redux, Flutter, Firebase, Vue.js, Gatsby.js, HTML5/CSS3",
+    result: "NodeJS(Express.js), ReactJS/Redux, Flutter, Firebase, Gatsby.js, HTML5/CSS3",
   },
   {
     title: "Databases",

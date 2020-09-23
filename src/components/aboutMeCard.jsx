@@ -5,7 +5,7 @@ import { Paper } from '@material-ui/core'
 import Social from './social'
 import aboutMeCardStyles from './aboutMeCard.module.css'
 import profilePic from '../../static/taiyr.png'
-import cvFile from "../../static/Taiyr_Begeyev_CV_EU.pdf"
+import cvFile from "../../static/Taiyr_Begeyev_CV.pdf"
 import { about_me, skills } from "../config/text"
 
 const AboutMeCard = () => {

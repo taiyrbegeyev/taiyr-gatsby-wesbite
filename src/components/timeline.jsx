@@ -7,7 +7,7 @@ const TimeLine = () => {
   return (
     <div className={timelineStyles.timelineContainer} id="timeline">
       <Timeline lineColor={'#ddd'} className={timelineStyles.timeline}>
-        <TimelineItem
+        {/* <TimelineItem
           key="002"
           dateText={experience.flowlity_intern.date}
           dateInnerStyle={{ background: '#ffc93c' }}
@@ -22,7 +22,7 @@ const TimeLine = () => {
               )
             }
           </ul>
-        </TimelineItem>
+        </TimelineItem> */}
         <TimelineItem
           key="002"
           dateText={experience.pryzl_cto.date}
