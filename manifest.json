@@ -1,6 +1,7 @@
 {
   "main.js": "render-page.js",
   "main.js.map": "render-page.js.map",
+  "static/Taiyr_Begeyev_CV.pdf": "static/Taiyr_Begeyev_CV-f32dd150bfb1ff4713c09ddd72d9a3bd.pdf",
   "static/Taiyr_Begeyev_CV_EU.pdf": "static/Taiyr_Begeyev_CV_EU-21ab276128b9cca3b109996c7249493d.pdf",
   "static/taiyr.png": "static/taiyr-3cbdf3d344174cd7d5bd401df300f5e8.png",
   "static/taiyrPortrait.jpeg": "static/taiyrPortrait-376ed48e20a5623b82c953b21ee8dc50.jpeg"
