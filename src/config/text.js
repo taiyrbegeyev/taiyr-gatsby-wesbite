@@ -1,6 +1,15 @@
 const about_me = "Nice to meet you! My name is Taiyr. I am a third year Computer Science student at Jacobs University Bremen, Germany. I am a Full Stack Developer based in Bremen, Germany, specialising in software and web development. I have been working in IT industry since 2019 and got my first programmer job at the age of 17."
 
 const experience = {
+  teaching_assistant_dbws: {
+    title: "Teaching Assistant, Jacobs University Bremen",
+    subtitle: "Databases and Web Services",
+    date: "10/2020 - Present",
+    description: [
+      "Write scripts to automate the grading process and distribute the grades accordingly",
+      "Conduct effective code reviews and share feedback with students"
+    ],
+  },
   pryzl_cto: {
     title: "CTO & Cofounder at Pryzl (Self-employed)",
     subtitle: "https://www.pryzl.com",

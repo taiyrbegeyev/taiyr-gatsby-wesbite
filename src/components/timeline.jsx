@@ -24,13 +24,28 @@ const TimeLine = () => {
           </ul>
         </TimelineItem> */}
         <TimelineItem
+          key="001"
+          dateText={experience.teaching_assistant_dbws.date}
+          style={{ color: '#e86971' }}
+        >
+          <h3 style={{ color: '#e86971' }}>{experience.teaching_assistant_dbws.title}</h3>
+          <h4>{experience.teaching_assistant_dbws.subtitle}</h4>
+          <ul>
+            {
+              experience.teaching_assistant_dbws.description.map(key =>
+                <li>{key}</li>  
+              )
+            }
+          </ul>
+        </TimelineItem>
+        <TimelineItem
           key="002"
           dateText={experience.pryzl_cto.date}
           dateInnerStyle={{ background: '#F55D3E' }}
           style={{ color: '#F55D3E' }}
         >
           <h3 style={{ color: '#F55D3E' }}>{experience.pryzl_cto.title}</h3>
-          <h4><a target="_blank" href={experience.pryzl_cto.subtitle}>pryzl.com</a></h4>
+          <h4><a target="_blank" rel="noreferrer" href={experience.pryzl_cto.subtitle}>pryzl.com</a></h4>
           <ul>
             {
               experience.pryzl_cto.description.map(key =>
@@ -40,13 +55,13 @@ const TimeLine = () => {
           </ul>
         </TimelineItem>
         <TimelineItem
-          key="002"
+          key="003"
           dateText={experience.medikura_working_student.date}
           dateInnerStyle={{ background: '#61b8ff' }}
           style={{ color: '#61b8ff' }}
         >
           <h3 style={{ color: '#61b8ff' }}>{experience.medikura_working_student.title}</h3>
-          <h4><a target="_blank" href={experience.medikura_working_student.subtitle}>medikura.com</a></h4>
+          <h4><a target="_blank" rel="noreferrer" href={experience.medikura_working_student.subtitle}>medikura.com</a></h4>
           <ul>
             {
               experience.medikura_working_student.description.map(key =>
@@ -56,7 +71,7 @@ const TimeLine = () => {
           </ul>
         </TimelineItem>
         <TimelineItem
-          key="001"
+          key="004"
           dateText={experience.teaching_assistant.date}
           style={{ color: '#e86971' }}
         >
@@ -71,13 +86,13 @@ const TimeLine = () => {
           </ul>
         </TimelineItem>
         <TimelineItem
-          key="002"
+          key="005"
           dateText={experience.medikura.date}
           dateInnerStyle={{ background: '#61b8ff' }}
           style={{ color: '#61b8ff' }}
         >
           <h3 style={{ color: '#61b8ff' }}>{experience.medikura.title}</h3>
-          <h4><a target="_blank" href={experience.medikura.subtitle}>medikura.com</a></h4>
+          <h4><a target="_blank" rel="noreferrer" href={experience.medikura.subtitle}>medikura.com</a></h4>
           <ul>
             {
               experience.medikura.description.map(key =>
@@ -87,13 +102,13 @@ const TimeLine = () => {
           </ul>
         </TimelineItem>
         <TimelineItem
-          key="003"
+          key="006"
           dateText={experience.method.date}
           dateInnerStyle={{ background: '#76bb7f' }}
           style={{ color: '#76bb7f' }}
         >
           <h3 style={{ color: '#76bb7f' }}>{experience.method.title}</h3>
-          <h4><a target="_blank" href={experience.method.subtitle}>pro.method.kz</a></h4>
+          <h4><a target="_blank" rel="noreferrer" href={experience.method.subtitle}>pro.method.kz</a></h4>
           <ul>
             {
               experience.method.description.map(key =>
