@@ -1,6 +1,6 @@
 import React from "react"
 import { Global } from "@emotion/core"
-import { Main, Styled, Container, css } from "theme-ui"
+import { Styled, Container, css } from "theme-ui"
 import "typeface-ibm-plex-sans"
 import SEO from "./seo"
 import Header from "./header"
@@ -57,9 +57,9 @@ const Layout = ({ children, className }: LayoutProps) => (
     <SkipNavLink>Skip to content</SkipNavLink>
     <Container>
       <Header />
-      <Main id="skip-nav" css={css({ ...CodeStyles })} className={className}>
+      <main id="skip-nav" css={css({ ...CodeStyles })} className={className}>
         {children}
-      </Main>
+      </main>
       <Footer />
     </Container>
   </Styled.root>

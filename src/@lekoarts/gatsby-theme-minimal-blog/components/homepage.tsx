@@ -1,6 +1,6 @@
 /** @jsx jsx */
 import { Global } from "@emotion/core"
-import { jsx, Main, Styled, Container, css } from "theme-ui"
+import { jsx, Styled, Container, css } from "theme-ui"
 // @ts-ignore
 import buttonStyles from "../../../components/downloadButton.module.css"
 import "typeface-ibm-plex-sans"
@@ -70,7 +70,7 @@ const Homepage = ({ posts }: PostsProps) => {
       <SkipNavLink>Skip to content</SkipNavLink>
       <Container id="home">
         <Header />
-        <Main id="skip-nav" css={css({ ...CodeStyles })}>
+        <main id="skip-nav" css={css({ ...CodeStyles })}>
           <section sx={{ mb: [5, 6, 7], p: { fontSize: [1, 2, 3], mt: 2 } }}>
             <Hero />
             <div className={buttonStyles.content}>
@@ -85,7 +85,7 @@ const Homepage = ({ posts }: PostsProps) => {
           <List>
             <Bottom />
           </List>
-        </Main>
+        </main>
         <Footer />
       </Container>
     </Styled.root>
