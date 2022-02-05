@@ -1,25 +1,15 @@
 <p align="center">
   <a href="https://taiyr.me">
-    <img alt="Taiyr Portrait" src="https://taiyr.me/taiyrPortrait.jpeg" width="164" />
+    <img alt="Taiyr Portrait" src="https://taiyr.me/taiyr.jpg" width="164" />
   </a>
 </p>
 <h1 align="center">
   Taiyr Begeyev - Personal Website & Blog
 </h1>
 
-<p align="center">
-  <a href="https://github.com/taiyrbegeyev/taiyr-gatsby-wesbite/blob/master/LICENSE">
-    <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="Taiyr's personal website is released under the MIT license." />
-  </a>
-  <a href="https://twitter.com/intent/follow?screen_name=TBegeyev">
-    <img src="https://img.shields.io/twitter/follow/lekoarts_de.svg?label=Follow%20@TBegeyev" alt="Follow @TBegeyev" />
-  </a>
-</p>
-
 Typography driven, feature-rich blogging theme with minimal aesthetics. Includes tags/categories support and extensive features for code blocks such as live preview, line numbers, and line highlighting. Modifying the Gatsby Theme [`@lekoarts/gatsby-theme-minimal-blog`](https://github.com/LekoArts/gatsby-themes/tree/master/themes/gatsby-theme-minimal-blog).
 
 [**Demo Website**](https://taiyr.me)
-
 
 ## ✨ Features
 

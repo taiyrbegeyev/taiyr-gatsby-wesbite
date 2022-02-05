@@ -1,14 +1,15 @@
 import React from 'react'
-/** @jsx jsx */
+// eslint-disable-next-line
 import { jsx } from "theme-ui"
 import { Paper } from '@material-ui/core'
 import Social from './social'
 import aboutMeCardStyles from './aboutMeCard.module.css'
-import profilePic from '../../static/taiyr.png'
+import profilePic from '../../static/taiyr.jpg'
 import cvFile from "../../static/Taiyr_Begeyev_CV.pdf"
-import { about_me, skills } from "../config/text"
+import { about_me, email_address, skills } from "../config/text"
 
 const AboutMeCard = () => {
+  const emailTo = `mailto:${email_address}`
   return (
     <Paper className={aboutMeCardStyles.aboutMeWrapper}>
       <div className={aboutMeCardStyles.aboutMePictureSection}>
@@ -17,14 +18,14 @@ const AboutMeCard = () => {
         </div>
         <div className={aboutMeCardStyles.aboutMeImage} />
         <div className={aboutMeCardStyles.additionalSection}>
-          <a href={cvFile} target="_blank" className={aboutMeCardStyles.button}>Download CV</a>
+          <a href={cvFile} target="_blank" rel="noopener noreferrer" className={aboutMeCardStyles.button}>Download CV</a>
         </div>
       </div>
       <div className={aboutMeCardStyles.aboutMeInfoSection}>
         <div className={aboutMeCardStyles.aboutMeInfo}>
           <div className={aboutMeCardStyles.aboutMeInfoName}>
             <h2 style={{margin: '0', padding: '0'}}>Taiyr Begeyev</h2>
-            <a href="mailto:taiyrbegeyev@gmail.com" className={aboutMeCardStyles.aboutMeInfoNameSub}>taiyrbegeyev@gmail.com</a>
+            <a href={emailTo} className={aboutMeCardStyles.aboutMeInfoNameSub}>{email_address}</a>
           </div>
           <div className={aboutMeCardStyles.aboutMeInfoDescription}>
             <p>{about_me}</p>

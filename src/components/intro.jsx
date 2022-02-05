@@ -3,8 +3,7 @@ import Typist from 'react-typist'
 /** @jsx jsx */
 import { jsx } from 'theme-ui'
 import useSiteMetadata from "../@lekoarts/gatsby-theme-minimal-blog/hooks/use-site-metadata"
-import desktopImage from '../../static/taiyr_desktop.jpg'
-import mobileImage from '../../static/taiyr_mobile.jpg'
+import { desktopImage as imageUrl } from '../../static/taiyr_jp.jpg'
 import scrollTo from 'gatsby-plugin-smoothscroll'
 import introStyles from "./intro.module.css"
 
@@ -40,7 +39,6 @@ function useWindowSize() {
 const Intro = () => {
   const size = useWindowSize()
   const { siteTitle, role } = useSiteMetadata()
-  const imageUrl = size.width >= 768 ? desktopImage : mobileImage
   const titleMargin = size.width >= 768 ? 9 : 40
 
   return (

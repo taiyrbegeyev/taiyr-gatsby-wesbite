@@ -1,7 +1,7 @@
 import React from 'react'
 import scrollTo from 'gatsby-plugin-smoothscroll'
 import aboutMeIntroStyles from './aboutMeIntro.module.css'
-import taiyrPic from '../../static/taiyrPortrait.jpeg'
+import taiyrPic from '../../static/taiyr.jpg'
 
 const AboutMeIntro = () => {
   return (

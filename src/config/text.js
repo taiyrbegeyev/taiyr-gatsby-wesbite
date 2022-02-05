@@ -1,13 +1,16 @@
-const about_me = "Nice to meet you! My name is Taiyr. I am a third year Computer Science student at Jacobs University Bremen, Germany. I am a Full Stack Developer based in Bremen, Germany, specialising in software and web development. I have been working in IT industry since 2019 and got my first programmer job at the age of 17."
+export const about_me =
+  "Nice to meet you! My name is Taiyr. I am a third year Computer Science student at Jacobs University Bremen, Germany. I am a Full Stack Developer based in Bremen, Germany, specialising in software and web development. I have been working in IT industry since 2019 and got my first programmer job at the age of 17."
 
-const experience = {
+export const email_address = "taiyrbegeyev@gmail.com"
+
+export const experience = {
   teaching_assistant_dbws: {
     title: "Teaching Assistant, Jacobs University Bremen",
     subtitle: "Databases and Web Services",
     date: "10/2020 - Present",
     description: [
       "Write scripts to automate the grading process and distribute the grades accordingly",
-      "Conduct effective code reviews and share feedback with students"
+      "Conduct effective code reviews and share feedback with students",
     ],
   },
   pryzl_cto: {
@@ -30,7 +33,7 @@ const experience = {
     description: [
       "Developed automatic end-to-end test suites / ecosystems for all platform services to proof the readiness for release",
       "Migrated Express.js codebases to Typescript",
-    ]
+    ],
   },
   teaching_assistant: {
     title: "Teaching Assistant, Jacobs University Bremen",
@@ -41,7 +44,7 @@ const experience = {
       "Tutored 180 students and assist with assignments, imperative and object-oriented programming concepts",
       "Monitored students during class work and exams",
       "Provided assistance to professor in terms of preparing lesson outlines",
-    ]
+    ],
   },
   medikura: {
     title: "Frontend Web Developer Intern, Medikura",
@@ -57,7 +60,7 @@ const experience = {
       "Learned and applied clean coding software engineering principles through code reviews and pair programming",
       "Reviewed code of other developers",
       "Learned Agile principles by working in fast-paced scrum team",
-    ]
+    ],
   },
   method: {
     title: "Summer Internship Program | MethodPro, Almaty, KZ",
@@ -66,11 +69,11 @@ const experience = {
     description: [
       "Studied HTML, CSS, JavaScript and Python over the course of 8 weeks",
       "Worked on business cases from several Kazakhstani companies",
-    ]
+    ],
   },
 }
 
-const education = [
+export const education = [
   {
     university: "Jacobs University Bremen",
     location: "Bremen, Germany",
@@ -95,7 +98,7 @@ const education = [
         "Ethics in Science and Technology",
         "Fundamentals of International Business",
         "German A1.1",
-        "German A1.2"
+        "German A1.2",
       ],
       year_2: [
         "Operating Systems",
@@ -111,19 +114,20 @@ const education = [
         "Elements of Probability",
         "German A2.1",
         "German A2.2",
-      ]
+      ],
     },
   },
 ]
 
-const skills = [
+export const skills = [
   {
     title: "Programming Languages",
     result: "JavaScript, TypeScript, C/C++, Dart, Python",
   },
   {
     title: "Techologies",
-    result: "NodeJS(Express.js), ReactJS/Redux, Flutter, Firebase, Gatsby.js, HTML5/CSS3",
+    result:
+      "NodeJS(Express.js), ReactJS/Redux, Flutter, Firebase, Gatsby.js, HTML5/CSS3",
   },
   {
     title: "Databases",
@@ -134,7 +138,3 @@ const skills = [
     result: "react-testing-library, Mocha, Chai, Jest",
   },
 ]
-
-export {
-  about_me, experience, education, skills,
-}

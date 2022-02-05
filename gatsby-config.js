@@ -6,13 +6,14 @@ module.exports = {
   siteMetadata: {
     siteTitle: `Taiyr Begeyev`,
     siteTitleAlt: `Taiyr Begeyev`,
-    siteHeadline: 'Taiyr Begeyev',
-    siteUrl: 'https://taiyr.me',
-    siteDescription: 'Hi there! My name is Taiyr. I am a third year Computer Science student at Jacobs University Bremen and this is my personal website',
-    siteLanguage: 'en',
-    siteImage: '/taiyr_desktop.jpg',
-    author: 'Taiyr Begeyev',
-    role: 'Software Engineer'
+    siteHeadline: "Taiyr Begeyev",
+    siteUrl: "https://taiyr.me",
+    siteDescription:
+      "Hi there! My name is Taiyr and I'm a Software Engineer at THG",
+    siteLanguage: "en",
+    siteImage: "/taiyr_bg.jpg",
+    author: "Taiyr Begeyev",
+    role: "Software Engineer",
   },
   plugins: [
     `gatsby-theme-material-ui`,
@@ -21,8 +22,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-disqus`,
       options: {
-        shortname: `taiyr-me`
-      }
+        shortname: `taiyr-me`,
+      },
     },
     {
       resolve: `@lekoarts/gatsby-theme-minimal-blog`,
@@ -44,11 +45,11 @@ module.exports = {
         externalLinks: [
           {
             name: `Github`,
-            url: `https://github.com/taiyrbegeyev`
+            url: `https://github.com/taiyrbegeyev`,
           },
           {
             name: `LinkedIn`,
-            url: `https://www.linkedin.com/in/taiyrbegeyev`
+            url: `https://www.linkedin.com/in/taiyrbegeyev`,
           },
           {
             name: `Twitter`,
@@ -80,10 +81,10 @@ module.exports = {
         display: `standalone`,
         icons: [
           {
-            "src": "/android-chrome-144x144.png",
-            "sizes": "144x144",
-            "type": "image/png"
-          }
+            src: "/android-chrome-144x144.png",
+            sizes: "144x144",
+            type: "image/png",
+          },
         ],
       },
     },
