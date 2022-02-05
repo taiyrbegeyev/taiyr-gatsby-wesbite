@@ -1,14 +1,10 @@
 /** @jsx jsx */
 import { Global } from "@emotion/core"
 import { jsx, Styled, Container, css } from "theme-ui"
-// @ts-ignore
-import buttonStyles from "../../../components/downloadButton.module.css"
 import "typeface-ibm-plex-sans"
 import { Link } from "gatsby"
 // @ts-ignore
 import Hero from "../texts/hero"
-// @ts-ignore
-import Bottom from "../texts/bottom"
 // @ts-ignore
 import Title from "./title"
 import List from './list'
@@ -18,12 +14,8 @@ import replaceSlashes from "../utils/replaceSlashes"
 import SEO from "./seo"
 import Header from "./header"
 import Footer from "./footer"
-import DownloadButton from '../../../components/downloadButton'
 import CodeStyles from "../styles/code"
 import SkipNavLink from "./skip-nav"
-import Intro from "../../../components/intro"
-// @ts-ignore
-import cvFile from "../../../../static/Taiyr_Begeyev_CV.pdf"
 
 type PostsProps = {
   posts: {
@@ -73,18 +65,11 @@ const Homepage = ({ posts }: PostsProps) => {
         <main id="skip-nav" css={css({ ...CodeStyles })}>
           <section sx={{ mb: [5, 6, 7], p: { fontSize: [1, 2, 3], mt: 2 } }}>
             <Hero />
-            <div className={buttonStyles.content}>
-              <DownloadButton href={cvFile} content='Download CV' />
-              {/* <DownloadButton blog content='Check Out Blog' /> */}
-            </div>
           </section>
           <Title text="Latest Posts">
             <Link to={replaceSlashes(`/${basePath}/${blogPath}`)}>Read all posts</Link>
           </Title>
           <Listing posts={posts} showTags={false} />
-          <List>
-            <Bottom />
-          </List>
         </main>
         <Footer />
       </Container>

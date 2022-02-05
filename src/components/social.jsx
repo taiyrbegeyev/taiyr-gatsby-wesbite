@@ -12,10 +12,6 @@ const links = [
     href: 'https://www.linkedin.com/in/taiyrbegeyev',
   },
   {
-    id: 'twitter',
-    href: 'https://twitter.com/tbegeyev',
-  },
-  {
     id: 'instagram',
     href: 'https://www.instagram.com/taiyrbegeyev'
   },

@@ -52,10 +52,6 @@ module.exports = {
             url: `https://www.linkedin.com/in/taiyrbegeyev`,
           },
           {
-            name: `Twitter`,
-            url: `https://twitter.com/tbegeyev`,
-          },
-          {
             name: `Instagram`,
             url: `https://www.instagram.com/taiyrbegeyev`,
           },

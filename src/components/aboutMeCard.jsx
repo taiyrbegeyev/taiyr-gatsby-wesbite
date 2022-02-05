@@ -18,7 +18,7 @@ const AboutMeCard = () => {
         </div>
         <div className={aboutMeCardStyles.aboutMeImage} />
         <div className={aboutMeCardStyles.additionalSection}>
-          <a href={cvFile} target="_blank" rel="noopener noreferrer" className={aboutMeCardStyles.button}>Download CV</a>
+          <a href={cvFile} target="_blank" rel="noopener noreferrer" className={aboutMeCardStyles.button}>Open CV</a>
         </div>
       </div>
       <div className={aboutMeCardStyles.aboutMeInfoSection}>
