@@ -19,7 +19,7 @@
   "dependencies": {
     "@lekoarts/gatsby-theme-minimal-blog": "^2.2.9",
     "@material-ui/core": "^4.9.11",
-    "gatsby": "^2.13.3",
+    "gatsby": "^4.25.7",
     "gatsby-plugin-disqus": "^1.1.4",
     "gatsby-plugin-google-analytics": "^2.1.4",
     "gatsby-plugin-manifest": "^2.2.3",
